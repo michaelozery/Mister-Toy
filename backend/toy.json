@@ -1,0 +1,100 @@
+[
+  {
+    "name": "egestas ipsum",
+    "price": 48,
+    "type": "Educational",
+    "createdAt": "1977-05-10T12:51:46.825Z",
+    "inStock": false
+  },
+  {
+    "name": "pulvinar lacus",
+    "price": 94,
+    "type": "Adult",
+    "createdAt": "1980-03-29T01:50:33.141Z",
+    "inStock": true
+  },
+  {
+    "name": "aliquam magna",
+    "price": 61,
+    "type": "Educational",
+    "createdAt": "1987-10-09T15:22:16.833Z",
+    "inStock": true
+  },
+  {
+    "name": "lectus amet",
+    "price": 54,
+    "type": "Adult",
+    "createdAt": "1974-10-12T22:59:22.886Z",
+    "inStock": true
+  },
+  {
+    "name": "curabitur facilisis",
+    "price": 12,
+    "type": "Educational",
+    "createdAt": "1988-08-14T15:57:01.799Z",
+    "inStock": false
+  },
+  {
+    "name": "sagittis sed",
+    "price": 52,
+    "type": "Funny",
+    "createdAt": "1973-04-12T11:55:52.956Z",
+    "inStock": false
+  },
+  {
+    "name": "porttitor ipsum",
+    "price": 13,
+    "type": "Funny",
+    "createdAt": "1970-04-03T18:51:41.007Z",
+    "inStock": true
+  },
+  {
+    "name": "etiam mattis",
+    "price": 66,
+    "type": "Funny",
+    "createdAt": "1999-12-31T14:56:22.934Z",
+    "inStock": false
+  },
+  {
+    "name": "magna scelerisque",
+    "price": 18,
+    "type": "Funny",
+    "createdAt": "1989-07-14T21:47:43.295Z",
+    "inStock": true
+  },
+  {
+    "name": "Michael",
+    "price": 100,
+    "type": "Funny",
+    "inStock": false,
+    "createdAt": "2019-07-06T13:35:36.834Z"
+  },
+  {
+    "name": "test",
+    "price": 31,
+    "type": "Funny",
+    "createdAt": "1970-12-25T02:17:01.558Z",
+    "inStock": true,
+  },
+  {
+    "name": "test5",
+    "price": 31,
+    "type": "Funny",
+    "createdAt": "1970-12-25T02:17:01.558Z",
+    "inStock": true,
+  },
+  {
+    "name": "test evening",
+    "price": 100,
+    "type": "Funny",
+    "inStock": true,
+    "createdAt": "2019-07-07T15:49:04.689Z"
+  },
+  {
+    "name": "test evening",
+    "price": 100,
+    "type": "Funny",
+    "inStock": true,
+    "createdAt": "2019-07-07T15:57:44.992Z"
+  }
+]
