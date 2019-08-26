@@ -10,6 +10,10 @@
 	import ToyPreview from "../components/ToyPreview.vue";
 	import ToyFilter from '../components/ToyFilter.vue';
 	export default {
+		created() {
+			this.$store.dispatch("loadToys");
+		},
+
 		components: {
 			ToyPreview,
 			ToyFilter

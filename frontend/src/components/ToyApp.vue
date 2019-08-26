@@ -1,17 +1,18 @@
 <template>
-<v-app class="grey lighten-4">
+<v-app>
 	<section class="ToyApp">
 		<AppHeader />
-		<v-content>
-		<router-view></router-view>
-		</v-content>
+		  <v-content>
+    <v-container>
+		<router-view/>
+		</v-container>
+		  </v-content>
 	</section>
 	</v-app> 
 </template>
 
  <script>
 	import AppHeader from "../components/AppHeader.vue";
-
 	export default {
 		components: {
 			AppHeader

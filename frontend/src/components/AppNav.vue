@@ -1,6 +1,8 @@
 <template>
   <nav class="AppNav">
-    <v-navigation-drawer app v-model="drawerCopy" class="primary">
+    <v-navigation-drawer v-model="drawerCopy"
+    app 
+    class="secondary darken-3">
       <v-list>
         <v-list-tile v-for="link in links" :key="link.text" router :to="link.route">
           <v-list-tile-action>
@@ -21,7 +23,7 @@ export default {
   props: ["drawer"],
   data() {
     return {
-      drawerCopy: false,
+      drawerCopy: null,
       links: [
         {
           icon: "homepage",
@@ -33,7 +35,7 @@ export default {
           text: "Store",
           route: "/toy"
         }
-      ],
+      ]
     };
   },
   // created() {
@@ -42,7 +44,7 @@ export default {
   // },
   watch: {
     drawer(before) {
-      this.drawerCopy = before
+      this.drawerCopy = before;
     }
   }
 };

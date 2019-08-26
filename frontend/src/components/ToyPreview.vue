@@ -1,18 +1,26 @@
 <template>
-  <li class="ToyPreview">
-    <ul>
-      <li>
+  <div class="ToyPreview">
+      <v-card color="lightgrey">
         <img src="../assets/toyImg.jpeg" alt="ToyImg" />
-      </li>
-      <li>Name: {{toy.name}}</li>
-      <li>Price: {{toy.price}}</li>
-      <li>Type: {{toy.type}}</li>
-      <li>Date: {{toy.createdAt}}</li>
-      <li>In stock? {{toy.inStock}}</li>
-    </ul>
+      <v-card-title>
+      <span>Name:</span> {{toy.name}}
+      </v-card-title>
+      <v-card-text>
+      <span>Price:</span> {{toy.price}}
+      </v-card-text>
+      <v-card-text>
+      <span>Type:</span> {{toy.type}}
+      </v-card-text>
+      <v-card-text>
+      Date: {{toy.createdAt}}
+      </v-card-text>
+      <v-card-text>
+      In stock? {{toy.inStock}}
+      </v-card-text>
     <!-- <button>Edit: {{url}}</button>|| -->
+    <v-card-actions>
     <v-btn flat color="blue">
-      <router-link :to="detailsUrl">Details</router-link>
+      <router-link class="detailsBtn" :to="detailsUrl">Details</router-link>
       <v-icon>details</v-icon>
     </v-btn>
     <v-btn flat color="green">
@@ -23,8 +31,10 @@
       <span>Delete</span>
      <v-icon>delete</v-icon>
     </v-btn>
+    </v-card-actions>
     <hr />
-  </li>
+          </v-card>
+  </div>
 </template>
 
 <script>
@@ -56,5 +66,9 @@ a {
 }
 .editBtn {
   color: green;
+}
+
+.detailsBtn {
+  color: #2196F3
 }
 </style>

@@ -1,0 +1,10 @@
+undefined
+Sun, 18 Aug 2019 12:17:54 GMT - Debug - michaelo4u
+Sun, 18 Aug 2019 12:17:54 GMT - Debug - authService - signup with username: michaelo4u
+Sun, 18 Aug 2019 12:17:55 GMT - Error - [SIGNUP] Error: data must be a string and salt must either be a salt string or a number of rounds
+Sun, 18 Aug 2019 12:18:44 GMT - Debug - michaelo4u
+Sun, 18 Aug 2019 12:18:44 GMT - Debug - authService - signup with username: michaelo4u
+Sun, 18 Aug 2019 12:18:44 GMT - Debug - auth.route - new user created: {"username":"michaelo4u","name":"Michael Ozery","_id":"5d594224bd7f133fe8198cf0"}
+Sun, 18 Aug 2019 12:43:10 GMT - Debug - michaelo4u
+Sun, 18 Aug 2019 12:43:10 GMT - Debug - authService - signup with username: michaelo4u
+Sun, 18 Aug 2019 12:43:10 GMT - Error - [SIGNUP] Username already exists
